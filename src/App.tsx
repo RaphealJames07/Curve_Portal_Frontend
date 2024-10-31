@@ -1,7 +1,5 @@
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
 
-import Login from "./pages/auth/Login";
-// import Signup from "./pages/auth/Signup";
 import Verify from "./pages/auth/Verify";
 import ErrorPage from "./components/ErrorPage";
 import Register from "./pages/auth/Register";
