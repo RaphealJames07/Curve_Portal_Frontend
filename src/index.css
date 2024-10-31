@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+  --curve-primary-color: #ffb703;
+  --curve-secondary-color: #023047;
+  --curve-primary-text: #34393c;
+  --curve-bg-light-grey: #ECEDEF;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.highlighted-text::before {
+  content: '';
+  position: absolute;
+  bottom: -15px; /* Adjust this to position the highlight */
+  left: 0;
+  width: 140%;
+  height: 1.7em; /* Adjust for highlight thickness */
+  background: url(./assets/svgherobg.png) repeat-x; /* Use a crayon image */
+  background-size: cover;
+  z-index: -1;
+}
+

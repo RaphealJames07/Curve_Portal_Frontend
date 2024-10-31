@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Home",
+        "link": "/",
+        "active": true,
+        "id": 1
+    },
+    {
+        "name": "Courses",
+        "link": "/courses",
+        "active": true,
+        "id": 2
+    },
+    {
+        "name": "About",
+        "link": "/about",
+        "active": true,
+        "id": 3
+    },
+    {
+        "name": "Contact",
+        "link": "/contact",
+        "active": true,
+        "id": 4
+    },
+    {
+        "name": "Gallery",
+        "link": "/gallery",
+        "active": true,
+        "id": 5
+    }
+]
