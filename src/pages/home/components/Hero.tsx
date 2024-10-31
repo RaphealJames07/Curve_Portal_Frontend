@@ -3,7 +3,6 @@ import heroquote from "../../../assets/HeroImagequote.png";
 import heroimggif from "../../../assets/heroimggif.png";
 
 const Hero = () => {
-  console.log(first)
     return (
         <div className="w-full h-max">
             <div className="w-full h-max px-40 phone:px-4 pt-20 phone:pt-16 flex phone:flex-col">
