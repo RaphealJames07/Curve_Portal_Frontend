@@ -9,6 +9,8 @@ import {PersistGate} from "redux-persist/integration/react";
 import {persistStore} from "redux-persist";
 import store from "./global/store.ts";
 import "@mantine/core/styles.css";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import {MantineProvider} from "@mantine/core";
 

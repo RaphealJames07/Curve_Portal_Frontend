@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Learn from our Experts",
+        "description": "Learn from the Best, Immerse Yourself in Fun and Impactful Learning with Our Expert Instructors. We Handpick Seasoned Professionals to Deliver an Exceptional Learning Experience.",
+        "icon": "BsBook",
+        "id": 1
+    },
+    {
+        "title": "Hands on Experience",
+        "description": "Experience the Power of Doing: Embrace a Hands-on Learning Approach. At Our Academy, We Value Practicality and Empower You to Learn by Doing. Get Ready to Dive In and Unlock Your Full Potential!",
+        "id": 1,
+        "icon": "PiBrainLight"
+    },
+    {
+        "title": "Open Door to Opportunities",
+        "description": "Open the Door to Opportunities: Secure a Paid Internship Placement Upon Successful Completion of Our Intensive Six-Month Training Program. Your Hard Work and Dedication Will Be Rewarded with a Valuable Real-World Experience and a Stepping Stone towards Your Future Success.",
+        "id": 1,
+        "icon": "GrBriefcase"
+    },
+    {
+        "title": "Guidance every step of the way",
+        "description": "Benefit from Personalized Mentorship Throughout Your Journey. We Pair You with a Dedicated Mentor who will Provide Expert Guidance and Support, Ensuring You Have the Best Possible Learning Experience and Guidance as You Progress Towards Your Goals.",
+        "id": 1,
+        "icon": "TbUsers"
+    }
+]

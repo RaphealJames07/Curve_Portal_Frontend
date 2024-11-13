@@ -5,6 +5,7 @@ export default {
       extend: {
         colors:{
           "primary-color": "var(--curve-primary-color)",
+          "primary-color-light": "var(--curve-primary-light-color)",
           "secondary-color": "var(--curve-secondary-color)",
           "primary-text": "var(--curve-primary-text)",
           "primary-bg-light-grey": "var(--curve-bg-light-grey)",

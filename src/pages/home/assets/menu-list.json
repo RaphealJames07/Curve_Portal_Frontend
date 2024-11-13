@@ -6,12 +6,6 @@
         "id": 1
     },
     {
-        "name": "Courses",
-        "link": "/courses",
-        "active": true,
-        "id": 2
-    },
-    {
         "name": "About",
         "link": "/about",
         "active": true,
@@ -28,5 +22,11 @@
         "link": "/gallery",
         "active": true,
         "id": 5
+    },
+    {
+        "name": "Services",
+        "link": "/services",
+        "active": true,
+        "id": 2
     }
 ]

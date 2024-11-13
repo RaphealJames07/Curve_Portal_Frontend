@@ -30,11 +30,11 @@ const Hero = () => {
                         <img src={heroimggif} alt="" className="w-20 animate-bounce"/>
                     </span>
                 </div>
-                <div className="w-[60%] phone:w-full h-max flex  justify-end phone:justify-center">
+                <div className="w-[60%] phone:w-full phone:pb-10 h-max flex  justify-end phone:justify-center">
                     <img
                         src={herobg}
                         alt=""
-                        className="w-[80%] h-[30rem] object-contain"
+                        className="w-[80%] h-[30rem] phone:h-[20rem] object-contain"
                     />
                 </div>
             </div>

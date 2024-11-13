@@ -14,6 +14,11 @@ import AdminHome from "./pages/admin/AdminHome";
 import TestPage from "./pages/TestPage";
 import Home from "./pages/home/pages/Home";
 import HomeStructure from "./pages/home/components/HomeStructure";
+import Services from "./pages/home/pages/Services";
+import About from "./pages/home/pages/About";
+import ContactUs from "./pages/home/pages/ContactUs";
+import Gallery from "./pages/home/pages/Gallery";
+import TeacherHome from "./pages/teacher/TeacherHome";
 
 const App = () => {
     const router = createBrowserRouter([
@@ -28,20 +33,20 @@ const App = () => {
                     element:<Home/>
                 },
                 {
-                    path:'courses',
-                    element:<Home/>
+                    path:'services',
+                    element:<Services/>
                 },
                 {
                     path:'about',
-                    element:<Home/>
+                    element:<About/>
                 },
                 {
                     path:'contact',
-                    element:<Home/>
+                    element:<ContactUs/>
                 },
                 {
                     path:'gallery',
-                    element:<Home/>
+                    element:<Gallery/>
                 },
             ]
         },
@@ -90,7 +95,7 @@ const App = () => {
             children: [
                 {
                     path: "dashboard",
-                    element: <StudentHome />,
+                    element: <TeacherHome />,
                 },
             ],
         },

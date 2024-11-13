@@ -9,6 +9,7 @@
 #root,
 #docs-root {
   --curve-primary-color: #ffb703;
+  --curve-primary-light-color: #fff1cd;
   --curve-secondary-color: #023047;
   --curve-primary-text: #34393c;
   --curve-bg-light-grey: #ECEDEF;
@@ -31,4 +32,139 @@
   background-size: cover;
   z-index: -1;
 }
+.highlighted-text2::before {
+  content: '';
+  position: absolute;
+  top: -10px; /* Adjust this to position the highlight */
+  left: 0;
+  width: 140%;
+  height: 2.0em; /* Adjust for highlight thickness */
+  background: url(./assets/svgherobg.png) repeat-x; /* Use a crayon image */
+  background-size: cover;
+  z-index: -1;
+}
+.highlighted-textabout2::before {
+  content: '';
+  position: absolute;
+  top: -35px; /* Adjust this to position the highlight */
+  left: 0;
+  width: 140%;
+  height: 3.0em; /* Adjust for highlight thickness */
+  background: url(./assets/svgherobg.png) repeat-x; /* Use a crayon image */
+  background-size: cover;
+  z-index: -1;
+}
+.highlighted-text3::before {
+  content: '';
+  position: absolute;
+  top: -40px; /* Adjust this to position the highlight */
+  left: 0;
+  width: 140%;
+  height: 3.0em; /* Adjust for highlight thickness */
+  background: url(./assets/svgherobg.png) repeat-x; /* Use a crayon image */
+  background-size: cover;
+  z-index: -1;
+}
+.highlighted-text4::before {
+  content: '';
+  position: absolute;
+  top: -80px; /* Adjust this to position the highlight */
+  left: 0;
+  width: 140%;
+  height: 6.0em; /* Adjust for highlight thickness */
+  background: url(./assets/svgherobg.png) repeat-x; /* Use a crayon image */
+  background-size: cover;
+  z-index: -1;
+}
+.highlighted-text5::before {
+  content: '';
+  position: absolute;
+  top: -30px; /* Adjust this to position the highlight */
+  left: 0;
+  width: 140%;
+  height: 4.0em; /* Adjust for highlight thickness */
+  background: url(./assets/svgherobg.png) repeat-x; /* Use a crayon image */
+  background-size: cover;
+  z-index: -1;
+}
+.discoverBG{
+  background: url(./assets/discoversvg.svg) no-repeat; /* Use a crayon image */
+  background-size: cover;
+  z-index: 10;
+}
+.learnBg{
+  background: url(./assets/learnmore.svg) no-repeat; /* Use a crayon image */
+  background-size: cover;
+  z-index: 10;
+  
+}
+.imgBgAbout{
+  background: url(./assets/ab.png) no-repeat; /* Use a crayon image */
+  background-size: cover;
+  z-index: 10;
+  
+}
 
+.ant-collapse{
+  background-color: #023047;
+  color: white !important;
+}
+.ant-collapse-header{
+  color: white !important;
+}
+
+.toggle-dropdown {
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out,
+      visibility 0.25s ease-in-out;
+  will-change: transform;
+}
+.toggle-dropdown.active {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.8s cubic-bezier(0, 1, 0.4, 1),
+      transform 0.8s cubic-bezier(0.18, 1.25, 0.4, 1), visibility 0.4s linear;
+  transform: scale(1);
+}
+
+
+@media (max-width: 500px) {
+  .discoverBG{
+    background: none; /* Use a crayon image */
+    background-size: cover;
+    z-index: 10;
+  }
+}
+
+
+.owl-nav {
+  display: none;
+}
+
+.owl-dots {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #ffb703 !important;
+  transition: all 0.3s ease-in-out;
+}
+.owl-dot.active {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #ffb703 !important;
+  background: #ffb703 !important;
+  transition: all 0.3s ease-in-out;
+}

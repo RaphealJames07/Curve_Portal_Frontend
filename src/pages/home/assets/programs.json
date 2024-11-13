@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "icon": "FaReact",
+        "header": "Frontend Development",
+        "description": "Learn the basics of frontend development, including HTML, CSS, and JavaScript."
+    },
+    {
+        "id": 2,
+        "icon": "FaNode",
+        "header": "Backend Development",
+        "description": "Learn the basics of backend development, including server-side programming, databases, and APIs."
+    },
+    {
+        "id": 3,
+        "icon": "FaFigma",
+        "header": "Product Design",
+        "description": "Learn the basics of product design, including user experience, user interface, and design thinking."
+    }
+]

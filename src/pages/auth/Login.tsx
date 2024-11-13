@@ -10,6 +10,7 @@ const Login = () => {
     const url = "https://curve-portal-backend.vercel.app/api/v1/users/login";
     const data = {email, password};
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleLogin = (e: any) => {
         e.preventDefault();
         if (!email || !password) {

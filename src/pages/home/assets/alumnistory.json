@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Igbani Favour",
+    "position": "Frontend Developer @ Google",
+    "github": "https://github.com/adebayosuliton",
+    "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+    "twitter": "https://twitter.com/adebayosuliton",
+    "facebook": "https://twitter.com/adebayosuliton",
+    "story": "Admiring software engineers from afar, I never imagined I'd become one. Thanks to TheCurveAfrica, I discovered beauty and creativity in lines of code, learning to navigate this new world like a true engineer. It taught me that solutions can be brought to life through code, whether personal or collective. TheCurveAfrica remains a significant anchor that shaped my life.",
+    "image": "../../../assets/alumniImg1.jpg"
+},
+    {
+        "name": "Adebayo Suliton",
+        "position": "Frontend Developer @ Kora",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "Aspiring tech bro transformed by 'The Curve.' Cutting-edge curriculum and expert guidance propelled my career to new heights, opening doors to exciting opportunities. Now equipped to make a lasting impact in the tech industry.",
+        "image": "../../../assets/alumniImg1.jpg"
+    },
+    {
+        "name": "Aninku Joshua",
+        "position": "backend Developer @ TheCurve",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "As I began my tech journey, I faced uncertainties. However, The Curve Africa's exceptional instructors provided invaluable guidance, alleviating my concerns. Looking back, my experience there played a pivotal role in shaping my trajectory and paving the way for my success in tech.",
+        "image": "../../../assets/alumniImg1.jpg"
+    },
+    {
+        "name": "Justina Igbani",
+        "position": "Frontend Developer @ Kora",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "Thanks to The Curve Africa's scholarship, I gained invaluable training for personal and professional growth in tech education. Their support opened doors to endless possibilities and set me on a promising path.",
+        "image": "../../../assets/alumniImg1.jpg"
+    },
+    {
+        "name": "Ugwanya Isaac",
+        "position": "Backend Developer @ Kora",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "I'm grateful to God for using The Curve to provide a platform where lives can be meaningfully impacted by imbibing its core value_leadership, team work, competence, people etc into her students.",
+        "image": "../../../assets/alumniImg1.jpg"
+    },
+    {
+        "name": "Obinna Nwacgukwu",
+        "position": "Product Designer @ Kora",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "Extremely grateful for the once-in-a-lifetime opportunity! Developed soft skills, learned from seasoned instructors, and collaborated with tech enthusiasts. Now equipped with a basic understanding of being a tech professional and identifying solutions to tech-related problems.",
+        "image": "../../../assets/alumniImg1.jpg"
+    },
+    {
+        "name": "Opara Nwachukwu",
+        "position": "Frontend Developer @ Shutterscore",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "Curve's exceptional support and education transformed my career trajectory without financial burden. Their dedication to fostering learning and supporting aspiring professionals is admirable. I'm deeply thankful for the invaluable lessons and countless opportunities that positioned me for remarkable success.",
+        "image": "../../../assets/alumniImg1.jpg"
+    },
+    {
+        "name": "Onyenze Chibueze",
+        "position": "Backend Developer @ Kora",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "Joining The Curve Africa's web development program sparked my career journey. Transitioning to an internship at KoraPay was exhilarating. I embraced tasks, applying learnings to real-world projects. It provided insights into fintech and fueled my passion for tech-driven innovation. Grateful for mentorship, I'm eager to continue pushing boundaries in web development and technology.",
+        "image": "../../../assets/alumniImg1.jpg"
+    },
+    {
+        "name": "Ikponmwosa Ozigbe",
+        "position": "Backend Developer @ Fincra",
+        "github": "https://github.com/adebayosuliton",
+        "linkedin": "https://www.linkedin.com/in/adebayosuliton",
+        "twitter": "https://twitter.com/adebayosuliton",
+        "facebook": "https://twitter.com/adebayosuliton",
+        "story": "I'm grateful for my transformative experience at The Curve Africa, which provided me with essential skills as a Software Engineer. My internship at Fincra Technologies further shaped my growth, allowing me to apply knowledge to real-world projects. The supportive environment broadened my expertise and understanding of software development. Excited for the journey ahead.",
+        "image": "../../../assets/alumniImg1.jpg"
+    }
+   
+    
+]
