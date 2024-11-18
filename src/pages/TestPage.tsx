@@ -49,7 +49,7 @@ const TestPage = () => {
             if (detections) {
                 const descriptor = detections.descriptor;
                 const response = await fetch(
-                    "http://localhost:5000/api/loginWithFace",
+                    "http://127.0.0.1:3001/api/v1/attendance/loginWithFace",
                     {
                         method: "POST",
                         headers: {"Content-Type": "application/json"},
@@ -93,7 +93,7 @@ const TestPage = () => {
             <button
                 onClick={handleLogin}
                 disabled={loading}
-                className="cursor-pointer"
+                className="cursor-pointer w-max h-max flex items-center justify-center bg-primary-color rounded p-4 mt-4"
             >
                 Log In with Face
             </button>
