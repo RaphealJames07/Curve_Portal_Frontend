@@ -168,3 +168,17 @@
   background: #ffb703 !important;
   transition: all 0.3s ease-in-out;
 }
+
+.bgFaceScanImg{
+  background: url('./assets/facescan.jpeg') no-repeat;
+  width: 50%;
+  height: 100%;
+}
+.ant-picker-cell-inner.ant-picker-calendar-date {
+position: relative;
+}
+.ant-picker-calendar-date-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+}

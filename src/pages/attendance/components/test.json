@@ -1,0 +1,57 @@
+[
+    {
+        "_id": "674088888ca7270973d49307",
+        "firstName": "John",
+        "lastName": "doe",
+        "email": "johndoe@gmail.com",
+        "admissionCode": "2db20f2b",
+        "cohort": 1,
+        "status": "present",
+        "stack": "frontend",
+        "gender": "null"
+    },
+    {
+        "_id": "674088888ca7270973d49308",
+        "firstName": "Rapheal",
+        "lastName": "Ukachukwu",
+        "email": "raphealjunior07@gmail.com",
+        "admissionCode": "61541c48",
+        "cohort": 1,
+        "status": "present",
+        "stack": "frontend",
+        "gender": "male"
+    },
+    {
+        "_id": "674088888ca7270973d49309",
+        "firstName": "mary",
+        "lastName": "stella",
+        "email": "marystells@gmail.com",
+        "admissionCode": "a61726a9",
+        "cohort": 1,
+        "status": "present",
+        "stack": "backend",
+        "gender": "null"
+    },
+    {
+        "_id": "674088888ca7270973d4930b",
+        "firstName": "obinna",
+        "lastName": "douglas",
+        "email": "nwanneobi@gmail.com",
+        "admissionCode": "8178fa4f",
+        "cohort": 1,
+        "status": "present",
+        "stack": "product-design",
+        "gender": "null"
+    },
+    {
+        "_id": "674088888ca7270973d4930a",
+        "firstName": "gift",
+        "lastName": "osagie",
+        "email": "gofto@gmail.com",
+        "admissionCode": "ff97a73e",
+        "cohort": 1,
+        "status": "present",
+        "stack": "backend",
+        "gender": "null"
+    }
+]

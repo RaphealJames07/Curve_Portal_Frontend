@@ -10,7 +10,7 @@ import TeachersRoute from "./routes/TeachersRoute";
 import TeacherOutlet from "./pages/teacher/TeacherOutlet";
 import AdminRoute from "./routes/AdminRoute";
 import AdminOutlet from "./pages/admin/AdminOutlet";
-import AdminHome from "./pages/admin/AdminHome";
+import AdminHome from "./pages/admin/pages/homeA/AdminHome";
 import TestPage from "./pages/TestPage";
 import Home from "./pages/home/pages/Home";
 import HomeStructure from "./pages/home/components/HomeStructure";
@@ -18,7 +18,19 @@ import Services from "./pages/home/pages/Services";
 import About from "./pages/home/pages/About";
 import ContactUs from "./pages/home/pages/ContactUs";
 import Gallery from "./pages/home/pages/Gallery";
-import TeacherHome from "./pages/teacher/TeacherHome";
+// import TeacherHome from "./pages/teacher/teacherhome/TeacherHome";
+import AttendanceRegister from "./pages/attendance/AttendanceRegister";
+import LoginAttendance from "./pages/attendance/LoginAttendance";
+import TeacherHome from "./pages/teacher/pages/teacherhome/TeacherHome";
+import AttendanceT from "./pages/teacher/pages/attendanceT/AttendanceT";
+import AnalyticsT from "./pages/teacher/pages/analyticsT/AnalyticsT";
+import StudentsT from "./pages/teacher/pages/studentsT/StudentsT";
+import Calendar from "./pages/teacher/pages/calendarT/Calendar";
+import SettingsT from "./pages/teacher/pages/settingsT/SettingsT";
+import StudentsA from "./pages/admin/pages/studentsA/StudentsA";
+import CalendarA from "./pages/admin/pages/calendar/CalendarA";
+import Alumni from "./pages/admin/pages/alumniA/Alumni";
+import SettingsA from "./pages/admin/pages/settings/SettingsA";
 
 const App = () => {
     const router = createBrowserRouter([
@@ -27,34 +39,44 @@ const App = () => {
             path: "",
             errorElement: <ErrorPage />,
             element: <HomeStructure />,
-            children:[
+            children: [
                 {
-                    path:'',
-                    element:<Home/>
+                    path: "",
+                    element: <Home />,
                 },
                 {
-                    path:'services',
-                    element:<Services/>
+                    path: "services",
+                    element: <Services />,
                 },
                 {
-                    path:'about',
-                    element:<About/>
+                    path: "about",
+                    element: <About />,
                 },
                 {
-                    path:'contact',
-                    element:<ContactUs/>
+                    path: "contact",
+                    element: <ContactUs />,
                 },
                 {
-                    path:'gallery',
-                    element:<Gallery/>
+                    path: "gallery",
+                    element: <Gallery />,
                 },
-            ]
+            ],
         },
-       
+
         {
             path: "testpage",
             errorElement: <ErrorPage />,
             element: <TestPage />,
+        },
+        {
+            path: "attendance/login",
+            errorElement: <ErrorPage />,
+            element: <LoginAttendance />,
+        },
+        {
+            path: "attendance/register",
+            errorElement: <ErrorPage />,
+            element: <AttendanceRegister />,
         },
         {
             path: "register",
@@ -97,6 +119,26 @@ const App = () => {
                     path: "dashboard",
                     element: <TeacherHome />,
                 },
+                {
+                    path: "attendance",
+                    element: <AttendanceT />,
+                },
+                {
+                    path: "analytics",
+                    element: <AnalyticsT />,
+                },
+                {
+                    path: "students",
+                    element: <StudentsT />,
+                },
+                {
+                    path: "calendar",
+                    element: <Calendar />,
+                },
+                {
+                    path: "settings",
+                    element: <SettingsT />,
+                },
             ],
         },
 
@@ -109,6 +151,22 @@ const App = () => {
                 {
                     path: "dashboard",
                     element: <AdminHome />,
+                },
+                {
+                    path: "students",
+                    element: <StudentsA />,
+                },
+                {
+                    path: "calendar",
+                    element: <CalendarA />,
+                },
+                {
+                    path: "alumnis",
+                    element: <Alumni />,
+                },
+                {
+                    path: "settings",
+                    element: <SettingsA />,
                 },
             ],
         },

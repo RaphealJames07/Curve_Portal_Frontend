@@ -9,7 +9,8 @@ export default {
           "secondary-color": "var(--curve-secondary-color)",
           "primary-text": "var(--curve-primary-text)",
           "primary-bg-light-grey": "var(--curve-bg-light-grey)",
-        }
+        },
+        
       },
       screens: {
         phone: {max: "500px"},

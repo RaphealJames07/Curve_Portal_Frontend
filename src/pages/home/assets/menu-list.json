@@ -25,7 +25,7 @@
     },
     {
         "name": "Services",
-        "link": "/services",
+        "link": "/teacher/dashboard",
         "active": true,
         "id": 2
     }
