@@ -153,7 +153,7 @@ const HomeHeader = () => {
                                         type={`${
                                             revealPwd ? "text" : "password"
                                         }`}
-                                        className="w-[80%] h-10 outline-none"
+                                        className="w-[80%] h-10 outline-none transition-all"
                                         placeholder="Password"
                                         value={password}
                                         onChange={(e) =>
