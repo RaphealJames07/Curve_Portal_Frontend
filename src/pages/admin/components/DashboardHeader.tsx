@@ -22,7 +22,7 @@ const DashboardHeader = () => {
                     <div className="w-max h-max flex flex-col ">
                         <p className="font-medium text-sm">Abraham Lincoln</p>
                         <span className="text-xs font-medium text-gray-600">
-                            Admin
+                            Admin *
                         </span>
                     </div>
                 </div>
