@@ -19,10 +19,10 @@ const DashboardNav = () => {
                         className={({isActive}) =>
                             !isActive
                                 ? "transition-all duration-700 hover:bg-[#023047] hover:text-white"
-                                : "text-gray-700 "
+                                : "text-gray-700 bg-primary-color "
                         }
                     >
-                        <div className="w-full h-9 bg-primary-color flex items-center gap-2 pl-6 text-xs font-medium cursor-pointer text-white">
+                        <div className="w-full h-9  flex items-center gap-2 pl-6 text-xs font-medium cursor-pointer ">
                             <span>
                                 <MdSpaceDashboard size={16} />
                             </span>
@@ -34,7 +34,7 @@ const DashboardNav = () => {
                         className={({isActive}) =>
                             !isActive
                                 ? "transition-all duration-700 hover:bg-[#023047] hover:text-white"
-                                : "text-gray-700 "
+                                : "text-gray-700 bg-primary-color "
                         }
                     >
                         <div className="w-full h-9 flex items-center gap-2 pl-6 text-xs font-medium cursor-pointer ">
@@ -49,7 +49,7 @@ const DashboardNav = () => {
                         className={({isActive}) =>
                             !isActive
                                 ? "transition-all duration-700 hover:bg-[#023047] hover:text-white"
-                                : "text-gray-700 "
+                                : "text-gray-700 bg-primary-color "
                         }
                     >
                         <div className="w-full h-9 flex items-center gap-2 pl-6 text-xs font-medium cursor-pointer ">
@@ -64,7 +64,7 @@ const DashboardNav = () => {
                         className={({isActive}) =>
                             !isActive
                                 ? "transition-all duration-700 hover:bg-[#023047] hover:text-white"
-                                : "text-gray-700 "
+                                : "text-gray-700 bg-primary-color "
                         }
                     >
                         <div className="w-full h-9 flex items-center gap-2 pl-6 text-xs font-medium cursor-pointer ">
@@ -79,7 +79,7 @@ const DashboardNav = () => {
                         className={({isActive}) =>
                             !isActive
                                 ? "transition-all duration-700 hover:bg-[#023047] hover:text-white"
-                                : "text-gray-700 "
+                                : "text-gray-700 bg-primary-color "
                         }
                     >
                         <div className="w-full h-9 flex items-center gap-2 pl-6 text-xs font-medium cursor-pointer ">
@@ -97,7 +97,7 @@ const DashboardNav = () => {
                     className={({isActive}) =>
                         !isActive
                             ? "transition-all duration-700 hover:bg-[#023047] hover:text-white w-full"
-                            : "text-gray-700 w-full"
+                            : "text-gray-700 bg-primary-color w-full"
                     }
                 >
                     <div className="w-full h-9 flex items-center gap-2 pl-6 text-xs font-medium cursor-pointer ">
