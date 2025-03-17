@@ -15,7 +15,7 @@ const DashboardHeader = () => {
                     <span className="w-10 h-10 rounded-full bg-red-300 flex items-center justify-center">
                         <img
                             src={profile}
-                            alt=""
+                            alt="Profile_Picture"
                             className="w-full h-full rounded-full object-contain"
                         />
                     </span>
