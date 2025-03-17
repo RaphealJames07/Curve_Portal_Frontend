@@ -98,6 +98,7 @@ const HomeHeader = () => {
                                 alt="The Curve Africa Logo"
                                 className="w-16"
                             />
+                            D
                         </div>
                         <nav className="w-max h-max flex phone:hidden">
                             <ul className="w-max h-max flex gap-3 text-primary-text">
